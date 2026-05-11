@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/USS/Mainmenu.uss?fileID=7433441132597879392&amp;guid=d8c27641955585847b29ad2b497682e0&amp;type=3#Mainmenu" />
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Project/Art/Resources/background/background.png?fileID=2800000&amp;guid=addddf663f02e7346a0898bf64239437&amp;type=3#background&quot;);">
+        <ui:Label text="Nihil - Advenger" name="NameGame" class="header" style="color: rgb(255, 255, 255); font-size: 150px; -unity-font-definition: url(&quot;project://database/Assets/_Project/UI/Fonts/Thunder-VF.ttf?fileID=12800000&amp;guid=4c9362212b240c549999e705b96b5f6e&amp;type=3#Thunder-VF&quot;); -unity-text-align: middle-center; left: -12px; -unity-font-style: italic; width: 943px; -unity-text-outline-width: 10px; top: 162px;" />
+        <ui:Button text="Bắt đầu" name="StartBt" class="button" style="right: -450px; bottom: -380px;" />
+        <ui:Button text="Cài đặt" name="SettingBt" class="button" style="right: -450px; bottom: -400px;" />
+        <ui:Button text="Thoát" name="ExittBt" class="button" style="right: -450px; bottom: -420px;" />
+    </ui:VisualElement>
+</ui:UXML>

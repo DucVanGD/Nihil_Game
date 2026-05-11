@@ -1,0 +1,54 @@
+.header {
+    justify-content: flex-end;
+    align-items: center;
+    -unity-font-definition: url("project://database/Assets/_Project/UI/Fonts/Thunder-VF.ttf?fileID=12800000&guid=4c9362212b240c549999e705b96b5f6e&type=3#Thunder-VF");
+    font-size: 100px;
+    -unity-text-align: middle-center;
+    width: 1000px;
+    position: absolute;
+    top: 160px;
+    -unity-font-style: italic;
+    -unity-text-outline-width: 10px;
+}
+
+.button {
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-content: flex-start;
+    width: 300px;
+    height: 70px;
+    -unity-font-definition: url("project://database/Assets/_Project/UI/Fonts/MotoyaLMaru.ttf?fileID=12800000&guid=d4aa3bbdca9edd44084bde815d7ee797&type=3#MotoyaLMaru");
+    -unity-font-style: bold;
+    font-size: 35px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    border-left-color: rgb(106, 222, 243);
+    border-right-color: rgb(106, 222, 243);
+    border-top-color: rgb(106, 222, 243);
+    border-bottom-color: rgb(106, 222, 243);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition-duration: 0.35s;
+    background-color: rgba(129, 207, 245, 0);
+    -unity-background-image-tint-color: rgb(104, 219, 222);
+    -unity-background-scale-mode: stretch-to-fill;
+    display: flex;
+    visibility: visible;
+    overflow: visible;
+    background-image: url("project://database/Assets/_Project/Art/Resources/background/blue.png?fileID=2800000&guid=9fa2d0effbfa7e04594d586d1534f927&type=3#blue");
+    align-items: auto;
+}
+
+.button:hover {
+    width: 350px;
+    height: 75px;
+    background-color: rgba(53, 109, 176, 0);
+    background-image: url("project://database/Assets/_Project/Art/Resources/background/blue-dark.png?fileID=2800000&guid=65f6972714c0a954ca0d55f9a3512471&type=3#blue-dark");
+}

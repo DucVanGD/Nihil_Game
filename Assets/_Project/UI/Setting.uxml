@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/USS/setting-window.uss?fileID=7433441132597879392&amp;guid=9b1b91e4a3868b6429b802154ddb7a77&amp;type=3#setting-window" />
+    <ui:VisualElement name="MainContainer" style="flex-grow: 1; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.4);">
+        <ui:VisualElement name="SettingWindow" class="window" style="width: 450px; height: 600px; padding: 30px; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; overflow: visible;">
+            <ui:Label text="Cài Đặt" name="header" class="header" style="-unity-font-definition: url(&quot;project://database/Assets/_Project/UI/Fonts/MotoyaLMaru.ttf?fileID=12800000&amp;guid=d4aa3bbdca9edd44084bde815d7ee797&amp;type=3#MotoyaLMaru&quot;); font-size: 36px; -unity-text-align: upper-center; color: rgb(255, 100, 0); -unity-font-style: bold; margin-bottom: 16px; margin-top: 0;" />
+            <ui:Label text="Âm nhạc game" style="-unity-text-align: middle-center; font-size: 20px; margin-bottom: 4px; color: rgb(0, 0, 0);" />
+            <ui:Slider value="42" high-value="100" name="Music" class="slider" style="width: 90%; margin-bottom: 16px;" />
+            <ui:Label text="Thời gian sinh quái (s)" style="-unity-text-align: middle-center; font-size: 20px; margin-bottom: 4px; color: rgb(0, 0, 0);" />
+            <ui:Slider value="0" low-value="0.5" high-value="2.0" name="SpawnTime" class="slider" style="width: 90%; margin-bottom: 20px;" />
+            <ui:VisualElement name="ListChoice" style="width: 90%; align-items: flex-start; margin-bottom: 16px;">
+                <ui:Toggle label="Quái mạnh hơn" name="MobPowerUp" class="Toggle" style="margin-bottom: 12px; font-size: 20px; -unity-font-style: bold; width: 100%;" />
+                <ui:Toggle label="Khởi tạo ngẫu nhiên" name="RandomStats" class="Toggle" style="font-size: 20px; -unity-font-style: bold; width: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:Button name="SaveBt" emoji-fallback-support="false" class="button" style="background-image: url(&quot;project://database/Assets/_Project/Art/Resources/background/continue.png?fileID=2800000&amp;guid=30d14b2463f5af14abbb1cbb2f3f3a8e&amp;type=3#continue&quot;); background-color: rgb(44, 223, 96); width: 100px; height: 100px; border-radius: 10px; margin-bottom: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

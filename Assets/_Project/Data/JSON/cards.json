@@ -1,0 +1,357 @@
+{
+  "cards": [
+    {
+      "nameCard": "No Card",
+      "lvStar": 1,
+      "description": "Ô trống, không có thẻ.",
+      "mpRequest": 0,
+      "CardStats": [],
+      "imagePath": [
+        "NoCard",
+        "NoCard",
+        "NoCard"
+      ]
+    },
+    {
+      "nameCard": "Barrier",
+      "lvStar": 1,
+      "description": "Tạo khiên hấp thụ 25/40/60% sát thương trong 5/6/8 giây. Ở 3 sao, nếu giảm sát thương lớn hơn HP còn lại, khiên sẽ vỡ và để lại HP = 1.",
+      "mpRequest": 55,
+      "CardStats": [
+        {
+          "values": [
+            0.25,
+            5
+          ]
+        },
+        {
+          "values": [
+            0.4,
+            6
+          ]
+        },
+        {
+          "values": [
+            0.6,
+            8
+          ]
+        }
+      ],
+      "imagePath": [
+        "Barrier",
+        "Barrier2",
+        "Barrier3"
+      ]
+    },
+    {
+      "nameCard": "Burnning Body",
+      "lvStar": 1,
+      "description": "Thiêu đốt bản thân, mất 5/3/2% HP hiện tại mỗi giây gây 5/10/30 sát thương + 2% HP bản thân lên toàn bộ kẻ thù trên màn hình trong 6/6/10 giây. HP < 2% sẽ ngắt hiệu ứng",
+      "mpRequest": 75,
+      "CardStats": [
+        {
+          "values": [
+            0.05,
+            5,
+            6
+          ]
+        },
+        {
+          "values": [
+            0.03,
+            10,
+            6
+          ]
+        },
+        {
+          "values": [
+            0.02,
+            30,
+            10
+          ]
+        }
+      ],
+      "imagePath": [
+        "BurnningBody",
+        "BurnningBody2",
+        "BurnningBody3"
+      ]
+    },
+    {
+      "nameCard": "Healing",
+      "lvStar": 1,
+      "description": "Hồi 8/10/12% HP mỗi giây trong 3/4/5 giây.",
+      "mpRequest": 45,
+      "CardStats": [
+        {
+          "values": [
+            0.08,
+            3
+          ]
+        },
+        {
+          "values": [
+            0.1,
+            4
+          ]
+        },
+        {
+          "values": [
+            0.12,
+            5
+          ]
+        }
+      ],
+      "imagePath": [
+        "Healing",
+        "Healing2",
+        "Healing3"
+      ]
+    },
+    {
+      "nameCard": "Icicle Spear",
+      "lvStar": 1,
+      "description": "Bắn thương băng theo hướng tấn công, gây 100/200/300 sát thương và giảm tốc 40/65/80% lên mục tiêu trúng đòn.",
+      "mpRequest": 30,
+      "CardStats": [
+        {
+          "values": [
+            100,
+            0.4
+          ]
+        },
+        {
+          "values": [
+            210,
+            0.65
+          ]
+        },
+        {
+          "values": [
+            320,
+            0.8
+          ]
+        }
+      ],
+      "imagePath": [
+        "IcicleSpear",
+        "IcicleSpear2",
+        "IcicleSpear3"
+      ]
+    },
+    {
+      "nameCard": "Meteor",
+      "lvStar": 1,
+      "description": "Gọi 3/4/5 thiên thạch rơi ngẫu nhiên, gây 200/350/500% sát thương lên mục tiêu xung quanh (bao gồm cả người chơi).",
+      "mpRequest": 75,
+      "CardStats": [
+        {
+          "values": [
+            3,
+            2
+          ]
+        },
+        {
+          "values": [
+            4,
+            3.5
+          ]
+        },
+        {
+          "values": [
+            5,
+            5
+          ]
+        }
+      ],
+      "imagePath": [
+        "Meteor",
+        "Meteor2",
+        "Meteor3"
+      ]
+    },
+    {
+      "nameCard": "Poison",
+      "lvStar": 1,
+      "description": "Bôi độc lên vũ khí, khi chém gây thêm 5% HP mỗi giây trong 5/8/15 giây (sát thương %HP tối đa 50/80/150).",
+      "mpRequest": 40,
+      "CardStats": [
+        {
+          "values": [
+            5,
+            50
+          ]
+        },
+        {
+          "values": [
+            8,
+            150
+          ]
+        },
+        {
+          "values": [
+            15,
+            300
+          ]
+        }
+      ],
+      "imagePath": [
+        "Poison",
+        "Poison2",
+        "Poison3"
+      ]
+    },
+    {
+      "nameCard": "PowerUp",
+      "lvStar": 1,
+      "description": "Tăng sát thương 150/200/250% và tốc đánh 300% trong 5/6/8 giây. Ở 3 sao, hồi 2% HP mỗi đòn đánh.",
+      "mpRequest": 50,
+      "CardStats": [
+        {
+          "values": [
+            1.5,
+            5
+          ]
+        },
+        {
+          "values": [
+            2,
+            6
+          ]
+        },
+        {
+          "values": [
+            2.5,
+            8
+          ]
+        }
+      ],
+      "imagePath": [
+        "PowerUp",
+        "PowerUp2",
+        "PowerUp3"
+      ]
+    },
+    {
+      "nameCard": "SpeedBoots",
+      "lvStar": 1,
+      "description": "Tăng tốc chạy 150/200/300% trong 6/9/12 giây.",
+      "mpRequest": 25,
+      "CardStats": [
+        {
+          "values": [
+            1.5,
+            6
+          ]
+        },
+        {
+          "values": [
+            2,
+            9
+          ]
+        },
+        {
+          "values": [
+            3,
+            12
+          ]
+        }
+      ],
+      "imagePath": [
+        "SpeedBoots",
+        "SpeedBoots2",
+        "SpeedBoots3"
+      ]
+    },
+    {
+      "nameCard": "StarUp",
+      "lvStar": 1,
+      "description": "Tăng cấp sao cho 1/1/2 thẻ ngẫu nhiên thêm 1/2/2 sao.",
+      "mpRequest": 10,
+      "CardStats": [
+        {
+          "values": [
+            1,
+            1
+          ]
+        },
+        {
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "values": [
+            2,
+            2
+          ]
+        }
+      ],
+      "imagePath": [
+        "StarUp",
+        "StarUp2",
+        "StarUp3"
+      ]
+    },
+    {
+      "nameCard": "Swamp",
+      "lvStar": 1,
+      "description": "Tạo đầm lầy, làm chậm 50/75/95% những kẻ bước vào. Ở 3 sao, đứng quá 3 giây sẽ bị trói chân (tốc độ = 0). Đầm lầy chỉ biến mất khi có đầm mới.",
+      "mpRequest": 80,
+      "CardStats": [
+        {
+          "values": [
+            0.5
+          ]
+        },
+        {
+          "values": [
+            0.75
+          ]
+        },
+        {
+          "values": [
+            0.95
+          ]
+        }
+      ],
+      "imagePath": [
+        "Swamp",
+        "Swamp2",
+        "Swamp3"
+      ]
+    },
+    {
+      "nameCard": "Tornado",
+      "lvStar": 1,
+      "description": "Triệu hồi lốc xoáy quay quanh người chơi, hất văng kẻ địch và gây 80/120/180 sát thương trong 5/6/8 giây.",
+      "mpRequest": 90,
+      "CardStats": [
+        {
+          "values": [
+            80,
+            5
+          ]
+        },
+        {
+          "values": [
+            120,
+            6
+          ]
+        },
+        {
+          "values": [
+            180,
+            8
+          ]
+        }
+      ],
+      "imagePath": [
+        "Tornado",
+        "Tornado2",
+        "Tornado3"
+      ]
+    }
+  ]
+}
