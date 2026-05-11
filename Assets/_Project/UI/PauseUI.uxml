@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/USS/PauseScene.uss?fileID=7433441132597879392&amp;guid=d5390103793290f4aacb999b5d4bad0f&amp;type=3#PauseScene" />
+    <ui:VisualElement name="MainScene" style="flex-grow: 1;">
+        <ui:VisualElement name="PauseScene" style="flex-grow: 0.5; top: 157.5px; left: 280px; right: 280px; bottom: 157.5px; flex-shrink: 0.5; width: 720px; height: 405px; -unity-text-align: middle-center; border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; border-bottom-left-radius: 40px; border-left-color: rgba(255, 0, 0, 0); border-right-color: rgba(255, 0, 0, 0); border-top-color: rgba(255, 0, 0, 0); border-bottom-color: rgba(255, 0, 0, 0); background-image: resource(&apos;background/EXP&apos;);">
+            <ui:Label text="Tạm dừng" name="Header" class="header" />
+            <ui:Label text="Thời gian: 03:09" name="TimePlay" class="attribute" />
+            <ui:Label text="MPH: 342" name="MHP" class="attribute" />
+            <ui:Label text="Tổng điểm: 873" name="Point" class="attribute" />
+            <ui:Button name="ReplayBt" class="button" style="background-image: resource(&apos;background/replay&apos;); left: 305px; right: 0; bottom: 15px;" />
+            <ui:Button icon-image="project://database/Assets/_Project/Art/Resources/background/return.png?fileID=2800000&amp;guid=a220415783106a64fa775a10b8015e46&amp;type=3#return" name="ReturnBt" class="button" style="background-image: resource(&apos;background/return&apos;); border-left-color: rgba(220, 218, 199, 0); border-right-color: rgba(220, 218, 199, 0); border-top-color: rgba(220, 218, 199, 0); border-bottom-color: rgba(220, 218, 199, 0); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; left: 30px; bottom: 15px;" />
+            <ui:Button name="ContinueBt" class="button" style="background-image: resource(&apos;background/continue&apos;); right: 30px; bottom: 15px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

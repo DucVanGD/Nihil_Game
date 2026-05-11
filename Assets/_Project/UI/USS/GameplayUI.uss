@@ -1,0 +1,88 @@
+.Bar {
+    width: 300px;
+    height: 50px;
+    -unity-font-definition: url("project://database/Assets/_Project/UI/Fonts/MotoyaLMaru.ttf?fileID=12800000&guid=d4aa3bbdca9edd44084bde815d7ee797&type=3#MotoyaLMaru");
+    -unity-text-align: middle-right;
+    font-size: 16px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(247, 0, 0, 0);
+    background-image: none;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: auto;
+}
+
+.card:hover {
+    border-left-color: rgba(255, 246, 82, 0);
+    border-right-color: rgba(255, 246, 82, 0);
+    border-top-color: rgba(255, 246, 82, 0);
+    border-bottom-color: rgba(255, 246, 82, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.85);
+}
+
+.card:active {
+    transform-origin: center;
+    scale: 0.96 0.96;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.7);
+}
+
+.card {
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    -unity-font-definition: url("project://database/Assets/_Project/ThirdParty/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&guid=e3265ab4bf004d28a9537516768c1c75&type=3#LiberationSans");
+    font-size: 12px;
+    -unity-text-align: lower-center;
+    white-space: normal;
+    width: 100px;
+    height: 130px;
+    /* cursor: pointer; */
+    transition-duration: 0.12s;
+    transition-timing-function: ease-out;
+}
+
+.unity-progress-bar {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-background-image-tint-color: rgb(253, 253, 253);
+    height: 50px;
+    flex-direction: column;
+}
+
+.text {
+    border-left-color: rgba(255, 224, 0, 0);
+    border-right-color: rgba(255, 224, 0, 0);
+    border-top-color: rgba(255, 224, 0, 0);
+    border-bottom-color: rgba(255, 224, 0, 0);
+    border-top-width: 15px;
+    border-right-width: 15px;
+    border-bottom-width: 15px;
+    border-left-width: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.StarLV {
+    -unity-font-definition: url("project://database/Assets/_Project/UI/Fonts/MotoyaLMaru.ttf?fileID=12800000&guid=d4aa3bbdca9edd44084bde815d7ee797&type=3#MotoyaLMaru");
+    font-size: 12px;
+    -unity-text-align: middle-right;
+    position: absolute;
+}

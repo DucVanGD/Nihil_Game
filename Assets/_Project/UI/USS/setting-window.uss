@@ -1,0 +1,67 @@
+.window {
+    background-image: url("project://database/Assets/_Project/Art/Resources/background/yellow.png?fileID=2800000&guid=9b5928e3ebdda424684a97a08453e4e2&type=3#yellow");
+    width: 390px;
+    height: 600px;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-in-out;
+    border-left-color: rgba(230, 136, 5, 0);
+    border-right-color: rgba(230, 136, 5, 0);
+    border-top-color: rgba(230, 136, 5, 0);
+    border-bottom-color: rgba(230, 136, 5, 0);
+    border-top-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.header {
+}
+
+.slider {
+    -unity-font-definition: url("project://database/Assets/_Project/UI/Fonts/MotoyaLMaru.ttf?fileID=12800000&guid=d4aa3bbdca9edd44084bde815d7ee797&type=3#MotoyaLMaru");
+    font-size: 24px;
+    -unity-text-align: middle-center;
+    right: auto;
+    height: 35px;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border-left-color: rgba(255, 252, 17, 0);
+    border-right-color: rgba(255, 252, 17, 0);
+    border-top-color: rgba(255, 252, 17, 0);
+    border-bottom-color: rgba(255, 252, 17, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.slider {
+    -unity-font-definition: url("project://database/Assets/_Project/UI/Fonts/MotoyaLMaru.ttf?fileID=12800000&guid=d4aa3bbdca9edd44084bde815d7ee797&type=3#MotoyaLMaru");
+    font-size: 24px;
+    -unity-text-align: middle-center;
+}
+
+.bigbutton {
+}
+
+.button:hover {
+    width: 110px;
+    height: 110px;
+    transition-duration: 0.3s;
+}
+
+.Toggle {
+    -unity-font-definition: url("project://database/Assets/_Project/UI/Fonts/MotoyaLMaru.ttf?fileID=12800000&guid=d4aa3bbdca9edd44084bde815d7ee797&type=3#MotoyaLMaru");
+    -unity-font-style: bold-and-italic;
+}
